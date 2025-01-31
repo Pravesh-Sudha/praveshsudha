@@ -52,7 +52,7 @@ export default function Home() {
             <ArrowDown /> Know more
           </Link>
           <Link
-            href="mailto:contact@praveshsudha.com"
+            href="mailto:programmerpravesh@gmail.com"
             className={cn(buttonVariants({ variant: 'default', size: 'lg' }))}
           >
             Get in touch
