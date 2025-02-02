@@ -16,7 +16,7 @@ export const NAV_LINKS: NavLinksType = {
     },
     {
       name: 'Blog',
-      url: '/blog',
+      url: 'https://blog.praveshsudha.com',
       openInNewPage: true,
     },
     {
@@ -42,7 +42,7 @@ export const NAV_LINKS_COURSE: NavLinksType = {
     },
     {
       name: 'Blog',
-      url: '/blog',
+      url: 'https://blog.praveshsudha.com',
       openInNewPage: true,
     },
   ],
@@ -98,7 +98,7 @@ export const FOOTER_LINKS: FooterLinks = [
       },
       {
         name: 'Hashnode',
-        url: 'https://praveshstwt.hashnode.dev',
+        url: 'https://blog.praveshsudha.com',
         openInNewPage: true,
       },
     ],
@@ -113,8 +113,8 @@ export const FOOTER_LINKS: FooterLinks = [
       },
       {
         name: 'Blog',
-        url: '/blog',
-        openInNewPage: false, // Updated
+        url: 'https://blog.praveshsudha.com',
+        openInNewPage: true, // Updated
       },
       {
         name: 'Projects',
