@@ -114,7 +114,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Blog',
         url: 'https://blog.praveshsudha.com',
-        openInNewPage: true, // Updated
+        openInNewPage: false, // Updated
       },
       {
         name: 'Projects',
