@@ -1,2 +1,2 @@
 / http://praveshsudha.com 301
-/blog/* https://starter-kit-alpha-kohl.vercel.app/:splat 200
+/blog  https://blog.praveshsudha.com  301
