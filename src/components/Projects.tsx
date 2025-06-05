@@ -22,14 +22,14 @@ const Projects = ({ className, ...props }: React.HTMLAttributes<HTMLElement>) =>
       <ViewContainer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Project 1 */}
         <div className="p-6 border-2 border-gray-100 bg-white rounded-xl shadow-md">
-          <h3 className="text-lg font-medium">AWS Cloud Cost Optimization</h3>
+          <h3 className="text-lg font-medium">2048 Game Deployment on AWS with Jenkins & Terraform</h3>
           <p className="text-gray-500 text-base mt-2">
-            A Lambda function to clean up unnecessary EBS snapshots, reducing cloud storage costs.
-            This project demonstrates cost-efficient AWS resource management and automation.
+            Deployed the 2048 game on AWS using a fully automated pipeline with Docker, Jenkins, and Terraform.
+            This project showcases Infrastructure as Code, CI/CD, and containerization best practices.
           </p>
           <Link
-            href="https://github.com/Pravesh-Sudha/AWS-cloud-cost-optimization" // Replace with the actual URL
-            className="group mt-4 inline-flex items-center gap-2 text-green-600 hover:underline"
+            href="https://youtu.be/bZTPa7Xj6QE" // Replace with the actual URL
+            className="group mt-4 inline-flex items-center gap-2 text-primary hover:underline"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -39,14 +39,14 @@ const Projects = ({ className, ...props }: React.HTMLAttributes<HTMLElement>) =>
 
         {/* Project 2 */}
         <div className="p-6 border-2 border-gray-100 bg-white rounded-xl shadow-md">
-          <h3 className="text-lg font-medium">MERN Stack Dockerization</h3>
+          <h3 className="text-lg font-medium">Real-Time Twitter Streaming with Apache Kafka & Python</h3>
           <p className="text-gray-500 text-base mt-2">
-            Containerized and deployed a full MERN stack application using Docker Compose.
-            Simplified the setup process and improved scalability for modern web applications.
+            Built a real-time Twitter data pipeline using Apache Kafka, Python, Elasticsearch, and Kibana.
+            It demonstrates stream processing, data visualization, and open-source data engineering.
           </p>
           <Link
-            href="https://praveshstwt.hashnode.dev/how-to-containerise-and-deploy-a-mern-stack-application-with-docker-compose" // Replace with the actual URL
-            className="group mt-4 inline-flex items-center gap-2 text-green-600 hover:underline"
+            href="https://youtu.be/DROI7I2sbj8" // Replace with the actual URL
+            className="group mt-4 inline-flex items-center gap-2 text-primary hover:underline"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -56,14 +56,14 @@ const Projects = ({ className, ...props }: React.HTMLAttributes<HTMLElement>) =>
 
         {/* Project 3 */}
         <div className="p-6 border-2 border-gray-100 bg-white rounded-xl shadow-md">
-          <h3 className="text-lg font-medium">Ultimate Shell Script Project</h3>
+          <h3 className="text-lg font-medium"> Flask To-Do App with AWS, Terraform, Jenkins & Docker</h3>
           <p className="text-gray-500 text-base mt-2">
-            Developed a shell script to automatically send Jenkins logs to an S3 bucket,
-            improving log retention and cost optimization for CI/CD pipelines.
+            Created a full DevOps pipeline for a Flask-based To-Do app using Terraform, Jenkins, and Docker.
+            Features email notification via AWS SNS when a task is completed — enabling real-time alerts.
           </p>
           <Link
-            href="https://praveshstwt.hashnode.dev/mastering-cost-optimisation-with-shell-scripting-automate-log-storage-in-s3-for-budget-friendly-infrastructure" // Replace with the actual URL
-            className="group mt-4 inline-flex items-center gap-2 text-green-600 hover:underline"
+            href="https://youtu.be/ZLRv0rVifL8" // Replace with the actual URL
+            className="group mt-4 inline-flex items-center gap-2 text-primary hover:underline"
             target="_blank"
             rel="noreferrer noopener"
           >

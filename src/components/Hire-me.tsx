@@ -29,7 +29,7 @@ const HireMe: React.FC = () => {
       href="https://www.fiverr.com/praveshsudha/setup-and-fix-issues-on-amazon-web-services-aws"
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition"
+      className="inline-block px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg shadow-md hover:bg-primary/90 transition"
     >
       Explore Gig
     </a>
@@ -50,7 +50,7 @@ const HireMe: React.FC = () => {
       href="https://www.fiverr.com/praveshsudha/dockerize-and-deploy-your-application"
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-block px-6 py-3 bg-green-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition"
+      className="inline-block px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg shadow-md hover:bg-primary/90 transition"
     >
       Explore Gig
     </a>

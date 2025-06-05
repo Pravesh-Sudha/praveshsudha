@@ -23,6 +23,12 @@ export const NAV_LINKS: NavLinksType = {
       name: 'Newsletter',
       url: '#newsletter',
     },
+    {
+      name: 'Resume',
+      url: '/resume.pdf',
+      openInNewPage: true, // Opens in new tab
+      download: true,      // ✅ Custom flag, we'll handle this in the component
+    },
   ],
 };
 

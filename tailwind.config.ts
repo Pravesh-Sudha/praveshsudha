@@ -26,20 +26,20 @@ const config = {
         background: 'hsl(0, 0%, 100%)',
         foreground: 'hsl(var(--gray-900))',
         primary: {
-          DEFAULT: 'hsl(150, 60%, 40%)', // Main green
-          foreground: 'hsl(150, 20%, 95%)', // Text over green
-          25: 'hsl(150, 50%, 97%)', // Very light green
-          50: 'hsl(150, 45%, 90%)',
-          100: 'hsl(150, 40%, 80%)',
-          200: 'hsl(150, 35%, 70%)',
-          300: 'hsl(150, 30%, 60%)',
-          400: 'hsl(150, 25%, 50%)',
-          500: 'hsl(150, 60%, 40%)', // Same as DEFAULT
-          600: 'hsl(150, 50%, 35%)',
-          700: 'hsl(150, 40%, 30%)',
-          800: 'hsl(150, 30%, 20%)',
-          900: 'hsl(150, 20%, 15%)', // Dark green
-        },
+            DEFAULT: '#0076b5', // <- new main blue
+            foreground: 'hsl(150, 20%, 95%)',
+            25: 'hsl(150, 50%, 97%)',
+            50: 'hsl(150, 45%, 90%)',
+            100: 'hsl(150, 40%, 80%)',
+            200: 'hsl(150, 35%, 70%)',
+            300: 'hsl(150, 30%, 60%)',
+            400: 'hsl(150, 25%, 50%)',
+            500: '#0076b5', // <- also updated to match DEFAULT
+            600: 'hsl(150, 50%, 35%)',
+            700: 'hsl(150, 40%, 30%)',
+            800: 'hsl(150, 30%, 20%)',
+            900: 'hsl(150, 20%, 15%)',
+              },
         gray: {
           25: 'hsl(var(--gray-25))',
           50: 'hsl(var(--gray-50))',
@@ -74,8 +74,8 @@ const config = {
           foreground: 'hsl(210, 10%, 20%)',
         },
         card: {
-          DEFAULT: 'hsl(0, 0%, 100%)', // White for card backgrounds
-          foreground: 'hsl(210, 10%, 20%)',
+          DEFAULT: '#0076b5',
+          foreground: 'hsl(0, 0%, 100%)',
         },
       },
       borderRadius: {

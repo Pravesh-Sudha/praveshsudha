@@ -29,23 +29,38 @@ const NavLinks = ({
     )}
   >
     {navLinks.links.map((link, key) => (
-      <li key={key} className="w-full md:w-auto">
-        <Link
-          href={link.url}
-          className={cn(
-            buttonVariants({ variant: 'ghost', size: 'default' }),
-            'w-full md:w-auto'
-          )}
-          onClick={() => {
-            setIsOpen((prev) => !prev);
-          }}
-          target={link.openInNewPage ? '_blank' : ''}
-          rel={link.openInNewPage ? 'noreferrer noopener' : ''}
-        >
-          {link.name}
-        </Link>
-      </li>
-    ))}
+  <li key={key} className="w-full md:w-auto">
+    {link.download ? (
+      <a
+        href={link.url}
+        download
+        className={cn(
+          buttonVariants({ variant: 'ghost', size: 'default' }),
+          'w-full md:w-auto'
+        )}
+        target={link.openInNewPage ? '_blank' : ''}
+        rel={link.openInNewPage ? 'noreferrer noopener' : ''}
+        onClick={() => setIsOpen((prev) => !prev)}
+      >
+        {link.name}
+      </a>
+    ) : (
+      <Link
+        href={link.url}
+        className={cn(
+          buttonVariants({ variant: 'ghost', size: 'default' }),
+          'w-full md:w-auto'
+        )}
+        onClick={() => setIsOpen((prev) => !prev)}
+        target={link.openInNewPage ? '_blank' : ''}
+        rel={link.openInNewPage ? 'noreferrer noopener' : ''}
+      >
+        {link.name}
+      </Link>
+    )}
+  </li>
+))}
+
   </ul>
 );
 

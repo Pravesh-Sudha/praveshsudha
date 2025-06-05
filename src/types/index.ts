@@ -5,11 +5,13 @@ type NavLinkType = {
   name: string;
   url: string;
   openInNewPage?: boolean;
+  download?: boolean;
 };
 
 export type NavLinksType = {
   links: NavLinkType[];
   cta?: NavLinkType;
+  
 };
 
 // General Component Props
